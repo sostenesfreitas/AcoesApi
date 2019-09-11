@@ -25,7 +25,7 @@ node server.js
 
 ## Photo
 
-![Drag Racing](https://i.imgur.com/MkeZIZl.png)
+![Acoes Api](https://i.imgur.com/MkeZIZl.png)
 
 
 ## Support
