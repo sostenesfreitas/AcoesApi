@@ -7,7 +7,7 @@ const cors = require('cors')
 const mongose = require('mongoose')
 const { store, index } = require('./ControllerAcao')
 mongose.connect(
-	'mongodb+srv://miojo:miojo@cluster0-fjrrm.mongodb.net/test?retryWrites=true&w=majority',
+	'',
 	{ useNewUrlParser: true }
 )
 const port = process.env.PORT || 3333
