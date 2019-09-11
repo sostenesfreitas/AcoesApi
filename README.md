@@ -13,11 +13,13 @@ A simple api for stock market
 
 ```
 yarn
-on server.js
+
+change on server.js 
 mongose.connect(
 	'get url connect on https://github.com/steniowagner/mindCast',
 	{ useNewUrlParser: true }
 )
+
 node server.js
 ```
 
