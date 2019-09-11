@@ -1,0 +1,31 @@
+{
+	"name": "cotacao",
+	"version": "1.0.0",
+	"description": "cotacoes do dia.",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"keywords": [
+		"example",
+		"heroku"
+	],
+	"author": "sostenes freitas",
+	"license": "MIT",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.3",
+		"cheerio-tableparser": "^1.0.1",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-favicon": "^2.0.1",
+		"mongoose": "^5.6.13",
+		"path": "^0.12.7",
+		"puppeteer": "^1.19.0",
+		"request": "^2.88.0",
+		"request-promise": "^4.2.4",
+		"ws": "^7.1.2"
+	},
+	"engines": {
+		"node": "12.x"
+	}
+}
