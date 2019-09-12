@@ -13,5 +13,5 @@ module.exports = acoes => {
 }
 
 const add = (ultima, fechamento, variacao) => {
-	return ultima > fechamento ? `+${variacao}` : `-${variacao}`
+	return ultima > fechamento ? `+${variacao}` : `${variacao}`
 }
