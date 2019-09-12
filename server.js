@@ -16,6 +16,8 @@ app.use(favicon(__dirname + '/build/favicon.ico'))
 
 app.use(cors())
 
+app.use(express.json())
+
 app.use(express.static(__dirname))
 
 app.use(express.static(path.join(__dirname, 'build')))
@@ -24,8 +26,9 @@ app.get('/', function(req, res) {
 	res.sendFile(path.join(__dirname, 'build', 'index.html'))
 })
 
-app.get('/apiAcoes', (req, res) => {
-	scrapy(res, 'ibovespa')
+app.post('/apiAcoes', (req, res) => {
+	const { carteira } = req.body
+	scrapy(res, carteira)
 })
 
 app.listen(port)
